@@ -1,4 +1,4 @@
-//assignment-(1) start>>
+//assignment (1) start>>
 //feetToMile
 function feetToMile(feet){
     var mile = feet / 5280;     //we know 5280 feet = 1 mile.
@@ -6,7 +6,7 @@ function feetToMile(feet){
 }
 var getMile = feetToMile(1);
 console.log(getMile.toFixed(9)); //i just use topfixed for showing same result as google showed!
-//assignment-(1) finish>>
+//assignment (1) finish>>
 
 
 //assignment-(2) start>>
@@ -20,10 +20,10 @@ function woodCalculator(chair, table, bed){
 }
 var total = woodCalculator(14, 5, 12);
 console.log(total);
-//assignment-(2) finish>>
+//assignment (2) finish>>
 
 
-//assignment-(3) start>>
+//assignment (3) start>>
 //brickCalculator
 function brickCalculator(bricks){
     const oneFeet           = 1000;
@@ -52,10 +52,10 @@ function brickCalculator(bricks){
     }
 }
 console.log(brickCalculator(15)); 
-//assignment-(3) finish>>
+//assignment (3) finish>>
 
 
-//assignment-(4) start>>
+//assignment (4) start>>
 //tinyFriend
 function tinyFriend(names){
     var smallName = names[0];
@@ -69,4 +69,4 @@ function tinyFriend(names){
 }
 var smallestName = tinyFriend(['sabrina', 'shahed', 'atik', 'arifur', 'maruf']);
 console.log(smallestName);
-//assignment-(4) finish>>
+//assignment (4) finish>>
